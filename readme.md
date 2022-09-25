@@ -24,5 +24,5 @@ The purpose of this project was to query and display soccor league and team rank
 
 ### Walkthrough
 
-![Video Walkthrough](demo.gif)
+![Video Walkthrough](https://imgur.com/a/G7EHmsf)
 
