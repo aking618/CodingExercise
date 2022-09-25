@@ -8,14 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		ED2CC6F928DE0C11008215A2 /* YahooCodingExerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC6F828DE0C11008215A2 /* YahooCodingExerciseApp.swift */; };
-		ED2CC6FB28DE0C11008215A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC6FA28DE0C11008215A2 /* ContentView.swift */; };
 		ED2CC6FD28DE0C12008215A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2CC6FC28DE0C12008215A2 /* Assets.xcassets */; };
 		ED2CC70028DE0C12008215A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2CC6FF28DE0C12008215A2 /* Preview Assets.xcassets */; };
-		ED2CC70228DE0C12008215A2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC70128DE0C12008215A2 /* Persistence.swift */; };
 		ED2CC70528DE0C12008215A2 /* YahooCodingExercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC70328DE0C12008215A2 /* YahooCodingExercise.xcdatamodeld */; };
-		ED2CC70F28DE0C12008215A2 /* YahooCodingExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC70E28DE0C12008215A2 /* YahooCodingExerciseTests.swift */; };
-		ED2CC71928DE0C12008215A2 /* YahooCodingExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC71828DE0C12008215A2 /* YahooCodingExerciseUITests.swift */; };
-		ED2CC71B28DE0C12008215A2 /* YahooCodingExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC71A28DE0C12008215A2 /* YahooCodingExerciseUITestsLaunchTests.swift */; };
+		ED2CC72E28DE0EE8008215A2 /* GameRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC72D28DE0EE8008215A2 /* GameRecord.swift */; };
+		ED2CC73028DE10C4008215A2 /* OverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC72F28DE10C4008215A2 /* OverviewViewModel.swift */; };
+		ED2CC73228DE115A008215A2 /* GameRecordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73128DE115A008215A2 /* GameRecordService.swift */; };
+		ED2CC73528DE2200008215A2 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73428DE2200008215A2 /* OverviewView.swift */; };
+		ED2CC73728DE2720008215A2 /* TeamSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73628DE2720008215A2 /* TeamSummary.swift */; };
+		ED2CC73928DE2E06008215A2 /* OverviewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73828DE2E06008215A2 /* OverviewCellModel.swift */; };
+		ED2CC73D28DE3358008215A2 /* OverviewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73C28DE3358008215A2 /* OverviewHeader.swift */; };
+		ED2CC73F28DE405E008215A2 /* TeamDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73E28DE405E008215A2 /* TeamDetailsView.swift */; };
+		EDFF43BF28DE473A002BB359 /* TeamDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFF43BE28DE473A002BB359 /* TeamDetailsViewModel.swift */; };
+		EDFF43C128DE47E1002BB359 /* TeamSpecificStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFF43C028DE47E1002BB359 /* TeamSpecificStat.swift */; };
+		EDFF43C328DF4836002BB359 /* DetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFF43C228DF4836002BB359 /* DetailHeader.swift */; };
+		EDFF43C728DF72A5002BB359 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFF43C628DF72A5002BB359 /* Spinner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +45,24 @@
 /* Begin PBXFileReference section */
 		ED2CC6F528DE0C11008215A2 /* YahooCodingExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YahooCodingExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2CC6F828DE0C11008215A2 /* YahooCodingExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooCodingExerciseApp.swift; sourceTree = "<group>"; };
-		ED2CC6FA28DE0C11008215A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED2CC6FC28DE0C12008215A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED2CC6FF28DE0C12008215A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		ED2CC70128DE0C12008215A2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		ED2CC70428DE0C12008215A2 /* YahooCodingExercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YahooCodingExercise.xcdatamodel; sourceTree = "<group>"; };
 		ED2CC70A28DE0C12008215A2 /* YahooCodingExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YahooCodingExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED2CC70E28DE0C12008215A2 /* YahooCodingExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooCodingExerciseTests.swift; sourceTree = "<group>"; };
 		ED2CC71428DE0C12008215A2 /* YahooCodingExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YahooCodingExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED2CC71828DE0C12008215A2 /* YahooCodingExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooCodingExerciseUITests.swift; sourceTree = "<group>"; };
-		ED2CC71A28DE0C12008215A2 /* YahooCodingExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooCodingExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED2CC72D28DE0EE8008215A2 /* GameRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRecord.swift; sourceTree = "<group>"; };
+		ED2CC72F28DE10C4008215A2 /* OverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewModel.swift; sourceTree = "<group>"; };
+		ED2CC73128DE115A008215A2 /* GameRecordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRecordService.swift; sourceTree = "<group>"; };
+		ED2CC73328DE1788008215A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ED2CC73428DE2200008215A2 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		ED2CC73628DE2720008215A2 /* TeamSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSummary.swift; sourceTree = "<group>"; };
+		ED2CC73828DE2E06008215A2 /* OverviewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewCellModel.swift; sourceTree = "<group>"; };
+		ED2CC73C28DE3358008215A2 /* OverviewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewHeader.swift; sourceTree = "<group>"; };
+		ED2CC73E28DE405E008215A2 /* TeamDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsView.swift; sourceTree = "<group>"; };
+		EDFF43BE28DE473A002BB359 /* TeamDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsViewModel.swift; sourceTree = "<group>"; };
+		EDFF43C028DE47E1002BB359 /* TeamSpecificStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSpecificStat.swift; sourceTree = "<group>"; };
+		EDFF43C228DF4836002BB359 /* DetailHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeader.swift; sourceTree = "<group>"; };
+		EDFF43C628DF72A5002BB359 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				ED2CC6F728DE0C11008215A2 /* YahooCodingExercise */,
-				ED2CC70D28DE0C12008215A2 /* YahooCodingExerciseTests */,
-				ED2CC71728DE0C12008215A2 /* YahooCodingExerciseUITests */,
 				ED2CC6F628DE0C11008215A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,10 +111,13 @@
 		ED2CC6F728DE0C11008215A2 /* YahooCodingExercise */ = {
 			isa = PBXGroup;
 			children = (
+				ED2CC73328DE1788008215A2 /* Info.plist */,
+				ED2CC72C28DE0DCE008215A2 /* Shared */,
+				ED2CC72B28DE0DB1008215A2 /* Views */,
+				ED2CC72A28DE0DA6008215A2 /* Models */,
+				ED2CC72928DE0D9F008215A2 /* Services */,
+				ED2CC72728DE0D93008215A2 /* ViewModels */,
 				ED2CC6F828DE0C11008215A2 /* YahooCodingExerciseApp.swift */,
-				ED2CC6FA28DE0C11008215A2 /* ContentView.swift */,
-				ED2CC6FC28DE0C12008215A2 /* Assets.xcassets */,
-				ED2CC70128DE0C12008215A2 /* Persistence.swift */,
 				ED2CC70328DE0C12008215A2 /* YahooCodingExercise.xcdatamodeld */,
 				ED2CC6FE28DE0C12008215A2 /* Preview Content */,
 			);
@@ -116,21 +132,68 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		ED2CC70D28DE0C12008215A2 /* YahooCodingExerciseTests */ = {
+		ED2CC72728DE0D93008215A2 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				ED2CC70E28DE0C12008215A2 /* YahooCodingExerciseTests.swift */,
+				ED2CC72F28DE10C4008215A2 /* OverviewViewModel.swift */,
+				ED2CC73828DE2E06008215A2 /* OverviewCellModel.swift */,
+				EDFF43BE28DE473A002BB359 /* TeamDetailsViewModel.swift */,
 			);
-			path = YahooCodingExerciseTests;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		ED2CC71728DE0C12008215A2 /* YahooCodingExerciseUITests */ = {
+		ED2CC72928DE0D9F008215A2 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				ED2CC71828DE0C12008215A2 /* YahooCodingExerciseUITests.swift */,
-				ED2CC71A28DE0C12008215A2 /* YahooCodingExerciseUITestsLaunchTests.swift */,
+				ED2CC73128DE115A008215A2 /* GameRecordService.swift */,
 			);
-			path = YahooCodingExerciseUITests;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ED2CC72A28DE0DA6008215A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED2CC72D28DE0EE8008215A2 /* GameRecord.swift */,
+				ED2CC73628DE2720008215A2 /* TeamSummary.swift */,
+				EDFF43C028DE47E1002BB359 /* TeamSpecificStat.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED2CC72B28DE0DB1008215A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDFF43C928E09FD4002BB359 /* TeamDetails */,
+				EDFF43C828E09FC9002BB359 /* Overview */,
+				EDFF43C628DF72A5002BB359 /* Spinner.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED2CC72C28DE0DCE008215A2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ED2CC6FC28DE0C12008215A2 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EDFF43C828E09FC9002BB359 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				ED2CC73428DE2200008215A2 /* OverviewView.swift */,
+				ED2CC73C28DE3358008215A2 /* OverviewHeader.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		EDFF43C928E09FD4002BB359 /* TeamDetails */ = {
+			isa = PBXGroup;
+			children = (
+				ED2CC73E28DE405E008215A2 /* TeamDetailsView.swift */,
+				EDFF43C228DF4836002BB359 /* DetailHeader.swift */,
+			);
+			path = TeamDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +326,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2CC73F28DE405E008215A2 /* TeamDetailsView.swift in Sources */,
+				ED2CC73928DE2E06008215A2 /* OverviewCellModel.swift in Sources */,
+				ED2CC73228DE115A008215A2 /* GameRecordService.swift in Sources */,
+				ED2CC73D28DE3358008215A2 /* OverviewHeader.swift in Sources */,
+				EDFF43C128DE47E1002BB359 /* TeamSpecificStat.swift in Sources */,
+				EDFF43BF28DE473A002BB359 /* TeamDetailsViewModel.swift in Sources */,
+				EDFF43C728DF72A5002BB359 /* Spinner.swift in Sources */,
+				ED2CC73728DE2720008215A2 /* TeamSummary.swift in Sources */,
+				ED2CC72E28DE0EE8008215A2 /* GameRecord.swift in Sources */,
 				ED2CC70528DE0C12008215A2 /* YahooCodingExercise.xcdatamodeld in Sources */,
-				ED2CC70228DE0C12008215A2 /* Persistence.swift in Sources */,
-				ED2CC6FB28DE0C11008215A2 /* ContentView.swift in Sources */,
 				ED2CC6F928DE0C11008215A2 /* YahooCodingExerciseApp.swift in Sources */,
+				ED2CC73028DE10C4008215A2 /* OverviewViewModel.swift in Sources */,
+				ED2CC73528DE2200008215A2 /* OverviewView.swift in Sources */,
+				EDFF43C328DF4836002BB359 /* DetailHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +347,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED2CC70F28DE0C12008215A2 /* YahooCodingExerciseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +354,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED2CC71928DE0C12008215A2 /* YahooCodingExerciseUITests.swift in Sources */,
-				ED2CC71B28DE0C12008215A2 /* YahooCodingExerciseUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +498,7 @@
 				DEVELOPMENT_TEAM = P649CF844Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YahooCodingExercise/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +528,7 @@
 				DEVELOPMENT_TEAM = P649CF844Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YahooCodingExercise/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
