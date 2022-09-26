@@ -11,7 +11,7 @@ struct TeamDetailsView: View {
     
     @State var viewModel : TeamDetailsViewModel
     
-    @State var currentSortedColumn: Int = 0
+    @State var currentSortedColumn : Int = 0
     
     @State var sortOrderAsc : [String : Bool] = [
         "TeamName" : true,

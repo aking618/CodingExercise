@@ -8,7 +8,7 @@
 import Foundation
 
 struct TeamSummary: Identifiable {
-    var id: UUID = UUID()
+    let id: UUID = UUID()
     var teamId: String = ""
     var teamName: String = ""
     var records: GameRecords = GameRecords()

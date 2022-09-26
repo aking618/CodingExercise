@@ -16,7 +16,6 @@
 		ED2CC73228DE115A008215A2 /* GameRecordServing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73128DE115A008215A2 /* GameRecordServing.swift */; };
 		ED2CC73528DE2200008215A2 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73428DE2200008215A2 /* OverviewView.swift */; };
 		ED2CC73728DE2720008215A2 /* TeamSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73628DE2720008215A2 /* TeamSummary.swift */; };
-		ED2CC73928DE2E06008215A2 /* OverviewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73828DE2E06008215A2 /* OverviewCellModel.swift */; };
 		ED2CC73D28DE3358008215A2 /* OverviewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73C28DE3358008215A2 /* OverviewHeader.swift */; };
 		ED2CC73F28DE405E008215A2 /* TeamDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73E28DE405E008215A2 /* TeamDetailsView.swift */; };
 		EDFF43BF28DE473A002BB359 /* TeamDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFF43BE28DE473A002BB359 /* TeamDetailsViewModel.swift */; };
@@ -56,7 +55,6 @@
 		ED2CC73328DE1788008215A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ED2CC73428DE2200008215A2 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
 		ED2CC73628DE2720008215A2 /* TeamSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSummary.swift; sourceTree = "<group>"; };
-		ED2CC73828DE2E06008215A2 /* OverviewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewCellModel.swift; sourceTree = "<group>"; };
 		ED2CC73C28DE3358008215A2 /* OverviewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewHeader.swift; sourceTree = "<group>"; };
 		ED2CC73E28DE405E008215A2 /* TeamDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsView.swift; sourceTree = "<group>"; };
 		EDFF43BE28DE473A002BB359 /* TeamDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsViewModel.swift; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				ED2CC72F28DE10C4008215A2 /* OverviewViewModel.swift */,
-				ED2CC73828DE2E06008215A2 /* OverviewCellModel.swift */,
 				EDFF43BE28DE473A002BB359 /* TeamDetailsViewModel.swift */,
 			);
 			path = ViewModels;
@@ -327,7 +324,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED2CC73F28DE405E008215A2 /* TeamDetailsView.swift in Sources */,
-				ED2CC73928DE2E06008215A2 /* OverviewCellModel.swift in Sources */,
 				ED2CC73228DE115A008215A2 /* GameRecordServing.swift in Sources */,
 				ED2CC73D28DE3358008215A2 /* OverviewHeader.swift in Sources */,
 				EDFF43C128DE47E1002BB359 /* TeamSpecificStat.swift in Sources */,

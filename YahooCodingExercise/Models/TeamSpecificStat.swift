@@ -8,7 +8,7 @@
 import Foundation
 
 struct TeamSpecificStat: Identifiable {
-    var id = UUID()
+    let id = UUID()
     var opponentTeamName: String = ""
     var wins: Int = 0
     var losses: Int = 0
