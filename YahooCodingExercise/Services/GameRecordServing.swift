@@ -7,11 +7,11 @@
 
 import Foundation
 
-protocol GameRecordServer {
+protocol GameRecordServing {
     func requestGameRecords (completion: @escaping (GameRecords) -> ())
 }
 
-public class GameRecordServerAF: GameRecordServer {
+public class GameRecordService: GameRecordServing {
     
     public init () {}
     
@@ -27,7 +27,7 @@ public class GameRecordServerAF: GameRecordServer {
         
         
         // Load the data locally
-        if (offlineResults) {
+        if offlineResults {
             do {
                 let data = try loadJSON(withFilename: "gamerecords")
                 
@@ -67,7 +67,7 @@ public class GameRecordServerAF: GameRecordServer {
 }
 
 // MARK: GameRecord Helper Functions
-extension GameRecordServerAF {
+extension GameRecordService {
     
     func parseGameRecords(records: GameRecords) -> TeamSummaries {
         var summaries = TeamSummaries()
@@ -136,7 +136,7 @@ extension GameRecordServerAF {
 
 
 // MARK: Loading / Saving data locally
-extension GameRecordServerAF {
+extension GameRecordService {
     
     private func loadJSON(withFilename filename: String) throws -> Any? {
         let fm = FileManager.default

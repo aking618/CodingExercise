@@ -74,8 +74,8 @@ struct OverviewView: View {
             .onAppear() {
                 if viewModel.teamSummaries.isEmpty {
                     
-                    GameRecordServerAF().requestGameRecords { gameRecords in
-                        self.viewModel.teamSummaries = GameRecordServerAF().parseGameRecords(records: gameRecords)
+                    GameRecordService().requestGameRecords { gameRecords in
+                        self.viewModel.teamSummaries = GameRecordService().parseGameRecords(records: gameRecords)
                         self.viewModel.teamSummaries.sort { $0.winPercentage > $1.winPercentage }
                         self.loading = false
                     }

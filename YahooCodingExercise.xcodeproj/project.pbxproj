@@ -13,7 +13,7 @@
 		ED2CC70528DE0C12008215A2 /* YahooCodingExercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC70328DE0C12008215A2 /* YahooCodingExercise.xcdatamodeld */; };
 		ED2CC72E28DE0EE8008215A2 /* GameRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC72D28DE0EE8008215A2 /* GameRecord.swift */; };
 		ED2CC73028DE10C4008215A2 /* OverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC72F28DE10C4008215A2 /* OverviewViewModel.swift */; };
-		ED2CC73228DE115A008215A2 /* GameRecordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73128DE115A008215A2 /* GameRecordService.swift */; };
+		ED2CC73228DE115A008215A2 /* GameRecordServing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73128DE115A008215A2 /* GameRecordServing.swift */; };
 		ED2CC73528DE2200008215A2 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73428DE2200008215A2 /* OverviewView.swift */; };
 		ED2CC73728DE2720008215A2 /* TeamSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73628DE2720008215A2 /* TeamSummary.swift */; };
 		ED2CC73928DE2E06008215A2 /* OverviewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2CC73828DE2E06008215A2 /* OverviewCellModel.swift */; };
@@ -52,7 +52,7 @@
 		ED2CC71428DE0C12008215A2 /* YahooCodingExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YahooCodingExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2CC72D28DE0EE8008215A2 /* GameRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRecord.swift; sourceTree = "<group>"; };
 		ED2CC72F28DE10C4008215A2 /* OverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewModel.swift; sourceTree = "<group>"; };
-		ED2CC73128DE115A008215A2 /* GameRecordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRecordService.swift; sourceTree = "<group>"; };
+		ED2CC73128DE115A008215A2 /* GameRecordServing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRecordServing.swift; sourceTree = "<group>"; };
 		ED2CC73328DE1788008215A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ED2CC73428DE2200008215A2 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
 		ED2CC73628DE2720008215A2 /* TeamSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSummary.swift; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 		ED2CC72928DE0D9F008215A2 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				ED2CC73128DE115A008215A2 /* GameRecordService.swift */,
+				ED2CC73128DE115A008215A2 /* GameRecordServing.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -328,7 +328,7 @@
 			files = (
 				ED2CC73F28DE405E008215A2 /* TeamDetailsView.swift in Sources */,
 				ED2CC73928DE2E06008215A2 /* OverviewCellModel.swift in Sources */,
-				ED2CC73228DE115A008215A2 /* GameRecordService.swift in Sources */,
+				ED2CC73228DE115A008215A2 /* GameRecordServing.swift in Sources */,
 				ED2CC73D28DE3358008215A2 /* OverviewHeader.swift in Sources */,
 				EDFF43C128DE47E1002BB359 /* TeamSpecificStat.swift in Sources */,
 				EDFF43BF28DE473A002BB359 /* TeamDetailsViewModel.swift in Sources */,
